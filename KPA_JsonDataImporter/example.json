@@ -1,0 +1,26 @@
+[
+  {
+    "DepartmentName": "Test Department Name",
+    "Notes": "Notes Taking Goes Here",
+    "EnvironmentScore": 5,
+    "HealthScore": 9,
+    "SafetyScore": 8,
+    "JsonData": "{ \"Name\": \"RandomObject\" }"
+  },
+  {
+    "DepartmentName": "1st Floor Department",
+    "Notes": "Some random notes",
+    "EnvironmentScore": 7,
+    "HealthScore": 3,
+    "SafetyScore": 4,
+    "JsonData": ""
+  },
+  {
+    "DepartmentName": "Cafeteria Team",
+    "Notes": "Pizza Tuesday",
+    "EnvironmentScore": 9,
+    "HealthScore": 5,
+    "SafetyScore": 1,
+    "JsonData": "{ \"Name\": \"MenuObject\" }"
+  }
+]

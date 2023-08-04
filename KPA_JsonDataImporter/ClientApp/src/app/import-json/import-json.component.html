@@ -1,0 +1,11 @@
+<h1>Import Json</h1>
+
+<p *ngIf="isCompleted"><em>Upload Completed</em></p>
+
+<div class="text-center">
+  <input class="form-control" type="file"
+         (change)="handleFileInput($event)">
+  <button (click)="uploadFile()" class="btn btn-success">
+    Upload
+  </button>
+</div>

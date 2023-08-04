@@ -1,0 +1,30 @@
+<h1 id="tableLabel">Example Data</h1>
+
+<p>Table of the Uploaded Example Data</p>
+
+<p *ngIf="!examples?.length"><em>Empty Database</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="examples.length">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Department Name</th>
+      <th>Notes</th>
+      <th>Environment Score</th>
+      <th>Health Score</th>
+      <th>Safety Score</th>
+      <th>Additional Json</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let example of examples">
+      <td>{{ example.id }}</td>
+      <td>{{ example.departmentName }}</td>
+      <td>{{ example.notes }}</td>
+      <td>{{ example.environmentScore }}</td>
+      <td>{{ example.healthScore }}</td>
+      <td>{{ example.safetyScore }}</td>
+      <td>{{ example.jsonData }}</td>
+    </tr>
+  </tbody>
+</table>
